@@ -33,3 +33,29 @@ print("get the first index",str[0])
 print("get some portion of characters",str[2:5])
 #concatenation
 print(str+" thoughts")
+
+#boolean
+x = 3
+y = 9
+
+z = x > y
+print(z)
+print(type(z))
+
+#Bytes
+a = [9,14,17,78]
+
+b = bytes(a)
+print(type(b))
+print(b[0])
+
+#Range
+number = range(10,15)
+print(number)
+print(type(number))
+
+for i in range(10,15):
+    print(i,end=' ')
+
+
+
